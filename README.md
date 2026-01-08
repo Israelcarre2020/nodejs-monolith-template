@@ -2,6 +2,26 @@
 
 🚀 Production-ready Node.js monolithic server template with Express, Sequelize, and JWT authentication.
 
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-5.x-blue.svg)](https://expressjs.com/)
+[![Sequelize](https://img.shields.io/badge/Sequelize-6.x-orange.svg)](https://sequelize.org/)
+[![License](https://img.shields.io/badge/License-ISC-yellow.svg)](LICENSE)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supported-blue.svg)](https://www.postgresql.org/)
+
+> ⚡ **Quick Start**: Clone, install dependencies, configure `.env`, and run `npm run dev` - you're ready to build!
+
+## 📌 What is this?
+
+A production-ready Node.js backend template featuring:
+
+- **Feature-first architecture** for scalable code organization
+- **JWT authentication** out of the box
+- **PostgreSQL** database with Sequelize ORM
+- **Security best practices** (Helmet, CORS, rate limiting)
+- **Clean code structure** following industry standards
+
+Perfect for startups, MVPs, or learning modern backend development.
+
 ## ✨ Features
 
 - 🏗️ **Feature-first architecture** - Organized by domain/feature
@@ -349,6 +369,19 @@ mkdir -p src/features/myfeature
 ## 📄 License
 
 ISC
+
+## ⭐ Star History
+
+If this template helped you, consider giving it a star ⭐
+
+## 📊 Repository Stats
+
+- 🏗️ Feature-first architecture
+- 🔐 JWT authentication ready
+- 🗄️ PostgreSQL + Sequelize ORM
+- 🛡️ Security best practices
+- 📝 Well-documented code
+- ✅ Production-ready
 
 ## 🤝 Contributing
 

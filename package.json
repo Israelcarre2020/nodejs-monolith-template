@@ -16,12 +16,35 @@
     "express",
     "sequelize",
     "jwt",
+    "jwt-authentication",
     "api",
+    "rest-api",
     "template",
-    "monolith"
+    "boilerplate",
+    "monolith",
+    "monolithic",
+    "postgresql",
+    "supabase",
+    "backend",
+    "server",
+    "express-server",
+    "nodejs-template",
+    "nodejs-boilerplate",
+    "express-template",
+    "feature-first",
+    "clean-architecture",
+    "production-ready"
   ],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nodejs-monolith-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/nodejs-monolith-template/issues"
+  },
+  "homepage": "https://github.com/yourusername/nodejs-monolith-template#readme",
   "engines": {
     "node": ">=18.0.0"
   },
