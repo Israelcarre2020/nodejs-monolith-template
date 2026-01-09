@@ -10,10 +10,10 @@ const router = express.Router();
 router.use(authenticateToken);
 
 // Routes
-router.post("/", apiLimiter, validateCreateProduct, productController.createProduct);
-router.get("/", apiLimiter, productController.getAllProducts);
-router.get("/:id", apiLimiter, productController.getProductById);
-router.put("/:id", apiLimiter, validateUpdateProduct, productController.updateProduct);
-router.delete("/:id", apiLimiter, productController.deleteProduct);
+router.post("/", validateCreateProduct, productController.createProduct);
+router.get("/", productController.getAllProducts);
+router.get("/:id", productController.getProductById);
+router.put("/:id", validateUpdateProduct, productController.updateProduct);
+router.delete("/:id", productController.deleteProduct);
 
 export default router;
